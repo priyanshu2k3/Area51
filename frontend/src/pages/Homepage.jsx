@@ -1,19 +1,11 @@
 import React from 'react';
-//import { useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 
 const Homepage = () => {
     return (
         <div className='homepage-container'>
-            <div className='navbar'>
-                <ul>
-                    <li>Home</li>
-                    <li>Calcutate</li>
-                    <li>Vendors</li>
-                    <li>Blog</li>
-                </ul>
-            </div>
-
+            
             <div>
 
             <h1>Solar Resource Potential</h1>

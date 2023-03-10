@@ -4,10 +4,12 @@ import Homepage from './pages/Homepage';
 import Blog from './pages/Blog';
 import Calculate from './pages/Calcutate';
 import Vendor from './pages/Vendors';
+import Navbar from './component/Navabar';
 
 function App() {
   return (
     <div className="App">
+      <Navbar/>
         <Routes>
        
        <Route path="/" element={<Homepage/>}/>
